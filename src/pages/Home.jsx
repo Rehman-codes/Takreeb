@@ -11,13 +11,13 @@ export default function Home() {
             <section className="w-full h-screen bg-black flex flex-col md:flex-row relative">
 
                 {/* Intro Section */}
-                <div id="intro" className="w-[50%] flex flex-col justify-center items-center">
+                <div id="intro" className="w-full md:w-[50%] flex flex-col justify-center items-center px-4 md:px-0">
 
-                    <div className="w-[75%]">
-                        <h1 className="ml-[10%] text-white text-9xl font-bold">Takreeb</h1>
+                    <div className="w-full md:w-[75%]">
+                        <h1 className="text-center md:text-left text-white text-5xl md:text-9xl font-bold">Takreeb</h1>
                     </div>
 
-                    <div className="w-[75%] flex justify-center">
+                    <div className="w-full md:w-[75%] flex justify-center">
                         <TypeAnimation
                             sequence={[
                                 1000,
@@ -25,17 +25,17 @@ export default function Home() {
                             ]}
                             wrapper="p"
                             speed={50}
-                            className="text-white font-thin text-lg"
+                            className="text-white font-thin text-sm md:text-lg text-center"
                         />
                     </div>
 
                 </div>
 
                 {/* Spline 3D Model */}
-                <div className="w-[50%] h-full relative">
+                <div className="w-full md:w-[50%] h-[50vh] md:h-full relative">
                     <Spline
                         scene="https://prod.spline.design/UgiBiSGLOhQqrvaP/scene.splinecode"
-                        className="flex justify-center items-center"
+                        className="flex justify-center items-center h-full"
                     />
                 </div>
 
