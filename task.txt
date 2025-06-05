@@ -1,0 +1,49 @@
+────────────────────────────────────────────────────────────
+🌟  Featured Events Page Specification  🌟
+────────────────────────────────────────────────────────────
+
+Scenario
+─────────
+You’ve been hired as a Web Development Intern at a startup 
+that helps people discover local events. The marketing team 
+needs a “Featured Events” page that displays a list of 
+upcoming events in a clean, mobile-friendly layout.
+
+Your Task
+──────────
+Build a single-page, responsive website with the following features:
+
+Requirements
+═════════════
+
+Layout
+───────
+• Top navigation bar containing:
+    - Site logo
+    - Links: “Home”, “Events”, “Contact”
+• Hero section with heading:
+    "Discover Events Near You"
+• Section titled “Featured Events” displaying 3–5 sample events
+
+Each Event Card Should Include:
+───────────────────────────────
+    ▸ Event name
+    ▸ Date and time
+    ▸ Location
+    ▸ Short description
+    ▸ “Register” button (no actual functionality required)
+
+Design
+───────
+• Simple, clean UI (Bootstrap or custom styling)
+• Fully responsive (mobile- and tablet-friendly)
+
+Bonus (Optional)
+────────────────
+• Add a search bar to filter events by name
+• Load event data dynamically using dummy JSON 
+  (simulate fetching with JavaScript)
+
+────────────────────────────────────────────────────────────
+✨  Build a beautiful, functional, and responsive events page! ✨
+────────────────────────────────────────────────────────────
